@@ -27,7 +27,9 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Oswald', sans-serif;
+    color: white;
 }
 ol, ul {
     list-style: none;
@@ -51,6 +53,7 @@ table {
   padding: 10px;
   justify-content: space-around;
   font-family: 'Silkscreen', cursive;
+  color: white;
   
 }
 .Menu-logo{
@@ -63,8 +66,27 @@ table {
   padding: 10px;
   justify-content: space-around;
   font-family: 'Oswald', sans-serif;
-  
+  color: white;
 }
+
+.Content{
+  display: flex;
+}
+.SobreMim{
+  display: flex;
+}
+.titulo2{
+  display: flex;
+  font-family: 'Silkscreen', cursive;
+  color: white;
+}
+.SobreMim-Lista {
+  display: flex;
+}
+.SobreMim-Lista-Item {
+  display: flex;
+}
+
 .foto{
   width: 200px;
   height: 120px;
