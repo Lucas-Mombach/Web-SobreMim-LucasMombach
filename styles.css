@@ -44,3 +44,17 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.Menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+.Menu-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
