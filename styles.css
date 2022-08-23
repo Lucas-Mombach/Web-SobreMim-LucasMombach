@@ -47,6 +47,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+section{
+  margin: 50px;
+  border-top: 0.3px solid white;
+}
 .Menu {
   display: flex;
   flex-direction: row;
@@ -69,30 +73,29 @@ table {
   font-family: 'Oswald', sans-serif;
   color: white;
 }
-
-.Content{
-  display: flex;
-}
 main{
   display: flex;
   flex-direction: column;
   padding: 10px;
   gap: 50px;
-
-}
-.SobreMim{
-  display: flex;
 }
 .titulo2{
   display: flex;
   font-family: 'Silkscreen', cursive;
   color: white;
 }
-.SobreMim-Lista {
+.SobreMim{
   display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  
 }
-.SobreMim-Lista-Item {
+
+.SobreMim-Texto{
   display: flex;
+  flex-direction: column;
+  
 }
 
 .foto{
