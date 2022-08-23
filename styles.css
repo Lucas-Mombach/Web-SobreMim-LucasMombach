@@ -30,6 +30,7 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     font-family: 'Oswald', sans-serif;
     color: white;
+    font-size: 30px;
 }
 ol, ul {
     list-style: none;
@@ -71,6 +72,13 @@ table {
 
 .Content{
   display: flex;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 50px;
+
 }
 .SobreMim{
   display: flex;
