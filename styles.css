@@ -122,6 +122,9 @@ main{
   width: 80%;
   height: auto;
 }
+img:hover {
+  transform: scaleX(-1);
+}
 
 .section2{
   display: flex;
@@ -155,6 +158,10 @@ table,th,td{
   margin: 0 auto;
   padding: 3px;
   border: 0.5px solid white;
+}
+.logo{
+  padding: 2px;
+  filter: invert(1);
 }
 footer{
   display: flex;
