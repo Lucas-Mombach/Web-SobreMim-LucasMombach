@@ -18,6 +18,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -46,6 +47,12 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+a{
+  color: white;
+}
+a:hover {
+  background-color: yellow;
 }
 
 .Menu {
@@ -102,7 +109,7 @@ main{
 .SobreMim-Texto{
   display: flex;
   flex-direction: column;
-  
+  gap: 20px;
 }
 
 .foto{
@@ -114,20 +121,29 @@ main{
   width: 100%;
   height: auto;
 }
+.section2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .extra{
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  
-
+  gap: 20px;
 }
 
 .table{
   display: flex;
   flex-direction: row;
 }
-table, th, td {
+
+table,th,td{
   border: 0.5px solid white;
+}
+
+.detalhes{
+  font-size: 70%;
 }
 
 footer{
