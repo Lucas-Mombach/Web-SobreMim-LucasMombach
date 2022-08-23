@@ -76,6 +76,7 @@ a:hover {
   justify-content: space-around;
   font-family: 'Oswald', sans-serif;
   color: white;
+  font-size: 90%;
 }
 main{
   display: flex;
@@ -123,7 +124,8 @@ main{
 }
 .section2{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
   gap: 20px;
 }
 .extra{
@@ -151,4 +153,5 @@ footer{
   align-items: center;
   border-top: 0.5px solid white;
   gap: 30px;
+  padding: 12px;
 }
