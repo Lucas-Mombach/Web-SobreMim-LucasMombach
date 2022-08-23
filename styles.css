@@ -76,7 +76,7 @@ main{
   padding: 10px;
   gap: 50px;
   margin-bottom: 50px;
-  border-top: 0.3px solid white;
+  border-top: 0.5px solid white;
   
 }
 .titulo2{
@@ -117,17 +117,22 @@ main{
 .extra{
   display: flex;
   flex-direction: column;
-  border-bottom: 0.3px solid white;
+  margin-top: 50px;
+  
 
 }
+
 .table{
   display: flex;
   flex-direction: row;
+}
+table, th, td {
+  border: 0.5px solid white;
 }
 
 footer{
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  border-top: 0.5px solid white;
   gap: 30px;
 }
